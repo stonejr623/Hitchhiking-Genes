@@ -5,7 +5,7 @@ A large issue when analyzing data for relevant noncoding transcripts such as tra
 
 Usage: 
 
-   ` python find_hitchhikers.py --deseq results.csv --genome GRCh38 [optional arguments] `
+   ` python find_hitchhikers.py --deseq results.csv [optional arguments] `
 
 Inputs:
 
