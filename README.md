@@ -11,7 +11,10 @@ Inputs:
 
     --deseq: CSV file result from DESeq2. Must contain a column with gene identifiers (default "gene_name") matching 
     the gtf file and columns "log2FoldChange" and "pvalue"
-    --genome: Name of reference genome (ex: GRCh37, GRCh38, T2T)
+    --genome: Name of reference genome (ex: GRCh37, GRCh38, T2T), default = GRCh38
+    --out: Name of output file (default=hitchhiker_report.txt)
+    --id-col: Name of column in DESeq CSV with gene IDs (default=gene_name)
+    --split: Split DESeq results into two csv files with coding and noncoding transcripts (default=False)
 
 Outputs:
 
